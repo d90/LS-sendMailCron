@@ -365,7 +365,7 @@ class sendMailCron extends PluginBase
             if($iSendedMail)
                 $this->log("{$iSendedMail} messages sent",1);
             if($iInvalidMail)
-                $this->log("{$iInvalidMail} invalid email adress",1);
+                $this->log("{$iInvalidMail} invalid email address",1);
             if($iErrorMail)
                 $this->log("{$iErrorMail} messages with unknow error",1);
         }
